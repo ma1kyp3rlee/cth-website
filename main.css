@@ -1,0 +1,23 @@
+.halloween {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f12711,
+    #f5af19
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f12711,
+    #f5af19
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.change-background {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.change-background > img {
+  color: #fff;
+}
